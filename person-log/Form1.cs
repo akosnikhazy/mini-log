@@ -36,7 +36,7 @@ namespace person_log
 
             if (userData[0] != userName.Text || !Password.checkPassword(password.Text, userData[1], userData[2])) {
 
-                MessageBox.Show("invalid username or passord");
+                MessageBox.Show("invalid username or password");
                 return;
             }
 
